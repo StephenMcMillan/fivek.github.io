@@ -8,6 +8,15 @@ header, .container {
     margin: auto;
 }
 
+h3 {
+    color: #3d3d3d;
+    font-weight: lighter;
+}
+
+.solid-divider {
+    border: 1px solid lightgrey;
+}
+
 /* Header level styling */
 
 header {
@@ -49,10 +58,14 @@ header img {
 
 /* Features Container styling */
 
+.container {
+    text-align: center;
+}
+
 .features-container {
     color: #3d3d3d;
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .row {
@@ -75,13 +88,19 @@ p {
     font-weight: normal;
 }
 
-.features-container {
-    text-align: center;
-}
-
 .features-container img {
     width: 128px;
     height: 128px;
+    margin: auto;
+}
+
+.screenshot-container {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.screenshot-container img {
+    width: 256px;
     margin: auto;
 }
 
