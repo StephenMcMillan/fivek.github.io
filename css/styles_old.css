@@ -1,0 +1,179 @@
+html {
+    font-family: 'Lato', sans-serif;
+    /* color: white; */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    color: #3d3d3d;
+    font-weight: lighter;
+}
+
+.solid-divider {
+    border: 1px solid lightgrey;
+}
+
+/* Header level styling */
+
+header {
+    background: linear-gradient(to top, #38EF7D, #21BD86);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-top: 0;
+}
+
+header h2 {
+    font-weight: lighter;
+}
+
+.header-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.header-text {
+    width: 80%;
+}
+
+.header-img-container {
+    text-align: center;
+}
+
+header img {
+    width: 220px;
+}
+
+/* Features Container styling */
+
+.container {
+    text-align: center;
+}
+
+.features-container {
+    color: #3d3d3d;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: baseline;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 3em;
+}
+
+p {
+    font-weight: normal;
+}
+
+.features-container img {
+    width: 128px;
+    height: 128px;
+    margin: auto;
+}
+
+.screenshot-container {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.screenshot-container img {
+    width: 256px;
+    margin: auto;
+}
+
+/* Download Container styling */
+
+.download-container {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(to bottom, #38EF7D, #21BD86);
+    color: white;
+}
+
+.download-container h2 {
+    margin: 0;
+    padding-top: 84px;
+}
+
+#appstore-download {
+    width: 210px;
+    height: auto;
+    
+}
+
+.download-container img {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.download-container p {
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 12px;
+    opacity: 50%;
+}
+
+@media(max-width: 767px) {
+
+    header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .header-container {
+        width: 100%;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .screenshot-container img {
+        width: 100%;
+    }
+
+    header img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .row, .column {
+        display: block;
+    }
+
+    .column {
+        width: 90%;
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
